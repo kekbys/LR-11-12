@@ -1,0 +1,29 @@
+﻿uses graphABC;
+begin
+  SetPenColor(clblack);
+  circle(90,120,20);
+  floodfill(90,120,clblue);
+  moveto(95,140);
+  lineto(130,320);
+  lineto(200,320);
+  lineto(220,250);
+  lineto(104,130);
+  floodfill(104,140,clblue);
+  moveto(200,320);
+  lineto(260,100);
+  circle(260,100,20);
+  floodfill(260,100,clred);
+  moveto(265,120);
+  lineto(330,320);
+  moveto(200,320);
+  lineto(330,320);
+  floodfill(290,310,clred);
+  moveto(320,320);
+  lineto(400,320);
+  lineto(435,135);
+  circle(440,115,20);
+  floodfill(440,115,cllime);
+  moveto(425,130);
+  lineto(305,245);
+  floodfill(320,245,cllime);
+end.
